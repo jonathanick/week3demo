@@ -14,8 +14,8 @@
     <body>
         <h1>Hello World!</h1>
         <form method="post" action="hello">
-            first Name: <input type="text" name="firstName">
-            last Name: <input type="text" name="lastName">
+            first Name: <input type="text" name="firstName" value="${firstName}">
+            last Name: <input type="text" name="lastName" value="${lastName}">
             <input type="submit" value="submit">
         </form>
     </body>
